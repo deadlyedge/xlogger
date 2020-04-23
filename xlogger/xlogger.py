@@ -8,7 +8,7 @@ FORMAT_DATETIME = '%Y/%m/%d %H:%M:%S'
 BASE_LOG_LEVEL = logging.DEBUG
 DISPLAY_LEVEL = logging.DEBUG
 FILE_LEVEL = logging.INFO
-FILE_OUTPUT = '../output.log'
+FILE_OUTPUT = 'output.log'
 
 
 class ColorFormatter(logging.Formatter):
