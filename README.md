@@ -22,6 +22,8 @@ logger = get_my_logger(__name__)
 ```
 and then just use logger as usual.
 
+![](https://github.com/deadlyedge/xlogger/blob/master/static/screenshot1.png)
+
 ## Main references
 'How can I color Python logging output?'
 
