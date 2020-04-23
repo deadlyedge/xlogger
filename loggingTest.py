@@ -1,4 +1,4 @@
-from xlogger import get_my_logger
+from xlogger.xlogger import get_my_logger
 
 logger = get_my_logger(__name__)
 

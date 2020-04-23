@@ -16,7 +16,7 @@ Install or just copy the code, it have no dependencies.
 
 add line to your code:
 ```python
-from xlogger import get_my_logger
+from xlogger.xlogger import get_my_logger
 
 logger = get_my_logger(__name__)
 ```
