@@ -12,13 +12,19 @@ shared at pypi I thought.
 Hope you guys enjoy it:)
 
 ## Usage
-Install or just copy the code, it have no dependencies.
+just copy the code, it have no dependencies. this is the way recommended, 
+because you can make your own logger customized easily by setting some variables.
 
-add line to your code:
+or if you want to install
+```batch
+pip3 install xlogger 
+```
+
+then add lines to your code:
 ```python
-from xlogger.xlogger import get_my_logger
+from xlogger import xlogger
 
-logger = get_my_logger(__name__)
+logger = xlogger.get_my_logger(__name__)
 ```
 and then just use logger as usual.
 
