@@ -1,6 +1,5 @@
-from xlogger.xlogger import get_my_logger
-
-logger = get_my_logger(__name__)
+import xlogger
+logger = xlogger.xlogger.get_my_logger(__name__)
 
 
 def main():
